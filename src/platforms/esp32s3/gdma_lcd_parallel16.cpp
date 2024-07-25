@@ -133,7 +133,7 @@
     {
 
       auto  freq     = (_cfg.bus_freq);
-      auto  _div_num = 16; // 10Mhz 
+      auto  _div_num = 20; // 8Mhz 
       if (freq <= 10000000L) {      
       } else if (freq < 20000000L) {
             _div_num = 10; // 16Mhz
